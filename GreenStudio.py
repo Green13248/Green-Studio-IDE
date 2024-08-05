@@ -119,6 +119,7 @@ def Runcompiler():
         output = subprocess.check_output(command, shell=True, text=True)
         terminal.insert(END, output)
         subprocess.check_output()
+#"C:\Users\tamer\Desktop\Compiler.exe"
 
 menubar = Menu(Window)
 filemenu = Menu(menubar, tearoff=0)
@@ -159,3 +160,4 @@ Window.config(menu=menubar)
 inputtxt.pack()
 terminal.pack()
 Window.mainloop()
+
